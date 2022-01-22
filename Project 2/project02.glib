@@ -1,0 +1,19 @@
+##OpenGL GLIB
+Perspective 90
+LookAt 7 14 10  0 0 0  0 10 0
+
+Vertex   project02.vert
+Fragment project02.frag
+Program  Project02  	\
+    uAd <.001 0.1 .5>	\
+		uBd <.001 0.1 .5>	\
+    uNoiseAmp <0. 0. 1.> \
+    uNoiseFreq <0. 1. 10.> \
+    uTol <0. 0. 1.>	\
+    uAlpha <0. 1. 1.> \
+		uElipColor {1. .5 0.}
+
+Noise2D 128
+Color 0.  .75  .9
+#Torus  1.  .5  60 60
+Obj Eoraptor2.obj
