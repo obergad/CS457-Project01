@@ -1,6 +1,9 @@
 # CS457-Projects
 
-
+glman:
+  Used to run the shaders.
+  
+  
 Project 1: 
   Simple shader to create looping elipsies on any obj file. 
   
